@@ -26,7 +26,7 @@ provider "null" "this" {}
 
 component "pet" {
   # source = "./pet"
-  source = "https://github.com/mjyocca/pet-null-component/pet"
+  source = "https://github.com/mjyocca/pet-null-component/pet.tar.gz"
 
   inputs = {
     prefix = var.prefix
