@@ -25,7 +25,8 @@ provider "random" "this" {}
 provider "null" "this" {}
 
 component "pet" {
-  source = "./pet"
+  # source = "./pet"
+  source = "https://github.com/mjyocca/pet-null-component/pet"
 
   inputs = {
     prefix = var.prefix
