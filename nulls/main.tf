@@ -10,12 +10,12 @@ terraform {
   }
 }
 
-module "echo" {
-  source  = "tfcdev-86ee0655.ngrok.io/hashicorp/echo/null"
-  version = "1.0.0"
-  charlie = "hello"
-  echo = "world"
-}
+# module "echo" {
+#  source  = "tfcdev-86ee0655.ngrok.io/hashicorp/echo/null"
+#  version = "1.0.0"
+##  charlie = "hello"
+#  echo = "world"
+## }
 
 variable "pet" {
   type = string
