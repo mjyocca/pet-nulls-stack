@@ -37,7 +37,8 @@ component "pet" {
 }
 
 component "nulls" {
-  source = "./nulls"
+  # source = "./nulls"
+  source = "git::https://github.com/mjyocca/nulls-null-component.git//nulls"
 
   inputs = {
     pet       = component.pet.name
