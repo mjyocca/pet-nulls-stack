@@ -19,10 +19,17 @@ required_providers {
     source  = "hashicorp/null"
     version = "~> 3.2.2"
   }
+
+  derp = {
+    source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
+    version = "1.0.0"
+  }
 }
 
 provider "random" "this" {}
 provider "null" "this" {}
+
+provider "derp" "this" {}
 
 component "pet" {
   # source = "git::https://github.com/mjyocca/pet-nulls-component.git//pet"
