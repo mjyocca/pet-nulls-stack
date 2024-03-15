@@ -7,7 +7,16 @@ terraform {
       source = "hashicorp/random"
       version = "3.3.2"
     }
+
+    derp = {
+      source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
+      version = "1.0.0"
+    }
   }
+}
+
+data "derp_example" "example" {
+  configurable_attribute = "some-value"
 }
 
 module "echo" {
