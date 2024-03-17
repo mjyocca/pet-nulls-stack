@@ -39,3 +39,12 @@ provider "registry.terraform.io/hashicorp/null" {
     "zh:eff8872458806499889f6927b5d954560f3d74bf20b6043409edf94d26cd906f",
   ]
 }
+
+provider "tfcdev-86ee0655.ngrok.io/hashicorp/derp" {
+  version     = "1.0.2"
+  constraints = "1.0.2"
+  hashes = [
+    "h1:eqn/koEWuQWLPwGmpc3F9M8olQ0tFy+fyyVj9qkvzLE=",
+    "zh:bfa57d036aa94713ce96ce4b84fe9b35aac1f394315f5c6d59520418a2e6f30e",
+  ]
+}
