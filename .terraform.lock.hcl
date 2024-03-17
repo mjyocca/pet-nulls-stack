@@ -40,7 +40,8 @@ provider "registry.terraform.io/hashicorp/null" {
   ]
 }
 
-provider "tfcdev-86ee0655.ngrok.io/hashicorp/derp" {
+# "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
+provider "registry.terraform.io/hashicorp/derp" {
   version     = "1.0.2"
   constraints = "1.0.2"
   hashes = [
