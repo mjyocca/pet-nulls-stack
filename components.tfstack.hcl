@@ -22,7 +22,7 @@ required_providers {
 
   derp = {
     source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
-    version = "1.0.0"
+    version = "1.0.1"
   }
 }
 
