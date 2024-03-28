@@ -29,7 +29,7 @@ required_providers {
 provider "random" "this" {}
 provider "null" "this" {}
 
-provider "derp" "this" {}
+# provider "derp" "this" {}
 
 component "pet" {
   # source = "git::https://github.com/mjyocca/pet-nulls-component.git//pet"
