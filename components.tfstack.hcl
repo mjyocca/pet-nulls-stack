@@ -42,7 +42,7 @@ component "pet" {
   providers = {
     random = provider.random.this
     null = provider.null.this
-    derp = provider.derp.this
+#    derp = provider.derp.this
   }
 }
 
