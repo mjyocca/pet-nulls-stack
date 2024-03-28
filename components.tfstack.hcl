@@ -20,10 +20,10 @@ required_providers {
     version = "~> 3.2.2"
   }
 
-  derp = {
-    source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
-    version = "1.0.3"
-  }
+#  derp = {
+#    source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
+#    version = "1.0.3"
+#  }
 }
 
 provider "random" "this" {}
