@@ -19,6 +19,10 @@ data "derp_example" "example" {
   configurable_attribute = "some-value"
 }
 
+data "derp_example" "example_2" {
+  configurable_attribute = "some-value"
+}
+
 module "echo" {
   source  = "tfcdev-86ee0655.ngrok.io/hashicorp/echo/null"
   version = "1.0.0"
