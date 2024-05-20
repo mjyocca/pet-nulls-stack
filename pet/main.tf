@@ -8,10 +8,10 @@ terraform {
       version = "3.3.2"
     }
 
-    derp = {
-      source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
-      version = "1.0.3"
-    }
+#    derp = {
+#      source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
+#      version = "1.0.3"
+#    }
   }
 }
 
