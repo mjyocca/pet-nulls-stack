@@ -23,12 +23,6 @@ terraform {
 #  configurable_attribute = "some-value"
 #}
 
-module "dir" {
-  source  = "apparentlymart/dir/template"
-  version = "1.0.2"
-  # insert the 1 required variable here
-}
-
 module "under_test" {
   source  = "hashicorp/dir/template"
   version = "1.0.2"
@@ -38,7 +32,6 @@ module "under_test" {
     name = "NAME IS"
   }
 }
-
 
 module "echo" {
   source  = "tfcdev-86ee0655.ngrok.io/hashicorp/echo/null"
