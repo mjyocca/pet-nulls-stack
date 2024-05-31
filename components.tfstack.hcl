@@ -19,11 +19,6 @@ required_providers {
     source  = "hashicorp/null"
     version = "~> 3.2.2"
   }
-
-#  derp = {
-#    source = "tfcdev-86ee0655.ngrok.io/hashicorp/derp"
-#    version = "1.0.3"
-#  }
 }
 
 provider "random" "this" {}
@@ -32,8 +27,7 @@ provider "null" "this" {}
 # provider "derp" "this" {}
 
 component "pet" {
-  #source = "git::https://github.com/mjyocca/pet-nulls-component.git//pet"
-  source = "./pet"
+  source = "git::https://github.com/mjyocca/pet-nulls-component.git//pet"
 
   inputs = {
     prefix = var.prefix
@@ -42,13 +36,11 @@ component "pet" {
   providers = {
     random = provider.random.this
     null = provider.null.this
-#    derp = provider.derp.this
   }
 }
 
 component "nulls" {
-  source = "./nulls"
-  # source = "git::https://github.com/mjyocca/nulls-null-component.git//nulls"
+  source = "git::https://github.com/mjyocca/nulls-null-component.git//nulls"
 
   inputs = {
     pet       = component.pet.name
