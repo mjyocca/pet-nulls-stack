@@ -27,7 +27,7 @@ provider "null" "this" {}
 # provider "derp" "this" {}
 
 component "pet" {
-  source = "git::https://github.com/mjyocca/pet-nulls-component.git//pet?ref=staging"
+  source = "git::https://github.com/mjyocca/pet-nulls-component.git?ref=staging//pet"
 
   inputs = {
     prefix = var.prefix
