@@ -4,13 +4,13 @@
 deployment "simple" {
   variables = {
     prefix           = "simple"
-    instances        = 2
+    instances        = 1
   }
 }
 
 deployment "complex" {
   variables = {
     prefix           = "complex"
-    instances        = 3
+    instances        = 2
   }
 }
