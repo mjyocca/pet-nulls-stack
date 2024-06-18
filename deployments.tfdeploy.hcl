@@ -4,7 +4,7 @@
 deployment "simple" {
   variables = {
     prefix           = "simple"
-    instances        = 2
+    instances        = 1
   }
 }
 
